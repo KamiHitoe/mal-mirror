@@ -5,7 +5,6 @@ import Button from '../styles/Button';
 const HeaderTitleContainer = styled.div`
   display: flex;
 `;
-
 const HeaderTitle = styled.h2`
   margin: 0 auto 0 0;
   color: #2e51a2;
