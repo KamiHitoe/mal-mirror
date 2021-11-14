@@ -12,7 +12,7 @@ const HeaderTitle = styled.h2`
 const HeaderContainer = styled.div`
   background-color: #2e51a2;
   display: flex;
-`
+`;
 const HeaderItem = styled.a`
   margin: 5px;
   text-decoration: none;
@@ -32,13 +32,16 @@ const Header = () => {
       <HeaderTitleContainer>
         <HeaderTitle>MyAnimeList</HeaderTitle>
         <Button ad>Hide Ads</Button>
+        <span class="material-icons" style={{ color: '#2e51a2' }}>list</span>
+        <span class="material-icons" style={{ color: '#2e51a2' }}>email</span>
+        <span class="material-icons" style={{ color: '#2e51a2' }}>notifications</span>
         <Button>button</Button>
       </HeaderTitleContainer>
       <HeaderContainer>
         <HeaderItem href="#">Anime</HeaderItem>
         <HeaderItem href="#">Manga</HeaderItem>
       </HeaderContainer>
-      <HeaderDescription>My Prof</HeaderDescription>
+      <HeaderDescription>starmiya_miyuki's Profile</HeaderDescription>
     </div>
   );
 }

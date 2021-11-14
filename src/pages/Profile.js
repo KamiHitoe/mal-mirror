@@ -8,15 +8,23 @@ const FlexContainer = styled.div`
 `;
 
 const FlexItem = styled.div`
-  
+  margin: 10px;
+  flex-grow: ${props => props.rate || 1};
+  border-right: solid 0.5px rgba(190,190,190,0.5);
 `;
 
 const Profile = () => {
   return(
     <div>
       <Header />
-      <Aside />
-      <Main />
+      <FlexContainer>
+        <FlexItem rate="1">
+          <Aside />
+        </FlexItem>
+        <FlexItem rate="9">
+          <Main />
+        </FlexItem>
+      </FlexContainer>
     </div>
   )
 };
