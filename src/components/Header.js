@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import Button from '../styles/Button';
 
@@ -14,7 +13,7 @@ const HeaderContainer = styled.div`
   display: flex;
 `;
 const HeaderItem = styled.a`
-  margin: 5px;
+  padding: 10px;
   text-decoration: none;
   color: #fff;
 `;
@@ -40,6 +39,11 @@ const Header = () => {
       <HeaderContainer>
         <HeaderItem href="#">Anime</HeaderItem>
         <HeaderItem href="#">Manga</HeaderItem>
+        <HeaderItem href="#">Community</HeaderItem>
+        <HeaderItem href="#">Industry</HeaderItem>
+        <HeaderItem href="#">Watch</HeaderItem>
+        <HeaderItem href="#">Read</HeaderItem>
+        <HeaderItem href="#">Help</HeaderItem>
       </HeaderContainer>
       <HeaderDescription>starmiya_miyuki's Profile</HeaderDescription>
     </div>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Aside from "../components/Aside";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Main from "../components/Main";
 
@@ -25,6 +26,7 @@ const Profile = () => {
           <Main />
         </FlexItem>
       </FlexContainer>
+      <Footer />
     </div>
   )
 };
